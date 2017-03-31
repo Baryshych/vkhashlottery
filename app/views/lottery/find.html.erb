@@ -1,0 +1,9 @@
+<%= render 'lottery/search_panel' %>
+<% if @winner[0] %>
+    <%= @winner[0]['first_name'] %>
+    <%= @winner[0]['last_name'] %>
+    <%= image_tag @winner[0]['photo_100'] %>
+    <%= link_to "VK", " http://www.vk.com/"+@winner[0]['screen_name'] %>
+<% else %>
+    <h4>Записи не найдены. Это нормально, скорее всего вк просто их не отдает. На всякий случай, проверьте хештег</h4>
+<% end %>

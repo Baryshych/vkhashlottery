@@ -1,0 +1,5 @@
+<%= form_tag("/find", method: "post") do %>
+    <%= label_tag(:q, "Hashtag:") %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("Search") %>
+<% end %>
