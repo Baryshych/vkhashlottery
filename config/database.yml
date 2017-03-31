@@ -11,7 +11,6 @@ default: &default
 
 development:
   <<: *default
-  development:
     database: blog_development
     username: blog
     password:
