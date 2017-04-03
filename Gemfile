@@ -35,6 +35,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'vkontakte_api', '~> 1.4'
 gem 'httparty'
 
+gem "twitter-bootstrap-rails"
+gem 'jquery-datatables-rails', '~> 3.4.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

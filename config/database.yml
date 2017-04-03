@@ -14,8 +14,8 @@ development:
   encoding: unicode
   database: blog_development
   pool: 5
-  username: blog
-  password:
+  username: postgres
+  password: '4129235'
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -26,8 +26,8 @@ test:
   encoding: unicode
   database: blog_development
   pool: 5
-  username: blog
-  password:
+  username: postgres
+  password: '4129235'
   host: localhost
 
 production:
@@ -35,6 +35,6 @@ production:
    encoding: unicode
    database: blog_development
    pool: 5
-   username: blog
-   password:
+   username: postgres
+   password: '4129235'
    host: localhost
