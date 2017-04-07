@@ -52,6 +52,7 @@ group :development do
 end
 
 gem 'sprockets-rails', '2.3.3'
+gem 'rails_12factor', group: :production
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
